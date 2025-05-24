@@ -1,8 +1,8 @@
 # Customer-Churn-Analysis-and-Prediction-Using-Power-BI-and-Machine-Learning
 This project presents a full-cycle customer churn analysis solution combining SQL, Power BI, and machine learning with Python to help businesses better understand and reduce customer attrition. The aim was to empower stakeholders with actionable insights and predictive capabilities through a visually intuitive and data-driven approach.
-##Project Overview
+## Project Overview
 Customer churn is a critical business challenge, especially in subscription-based and service industries. This project analyzes customer behavior, identifies key churn factors, and predicts the likelihood of churn using a Random Forest classifier. The solution is visualized using interactive Power BI dashboards and supports real-time decision-making by integrating churn predictions directly into the report.
 
-**My approach**
+## My approach
 The project began by acquiring the **customer_data** dataset and loading it into a SQL database. I performed a series of SQL queries to explore and extract valuable insights, such as churn rates by customer tenure, contract type, and payment method. Based on these insights, I first created a Churn Summary visualization in Power BI to present a high-level overview of churned customers.
 A SQL view was created to aggregate and preprocess essential customer features. This view was then imported into Excel and saved as prediction_data, which was subsequently used in Python to train a Random Forest model for customer churn prediction. The resulting predictions were saved as a CSV file named **prediction.csv** and subsequently used in Power BI for interactive visualization and analysis.
